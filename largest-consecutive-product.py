@@ -12,12 +12,3 @@
 
 with open("large-number.txt", "r") as my_file:
     number = my_file.readline()
-
-max = 0
-for pos in range(len(number) - 13):
-    prod = 1
-    for final_pos in range(pos, pos + 13):
-        prod *= int(number[final_pos])
-    if prod > max:
-        max = prod
-print(max)
