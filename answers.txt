@@ -1,0 +1,3 @@
+The difference between the sum of squares and the square of the sum is 25,164,150.
+
+The maximum product of 13 consecutive digits of the large number is 23,514,624,000.
